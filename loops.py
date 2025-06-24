@@ -78,13 +78,13 @@ for i in range(1,11,2):
 n=3
 for i in range(1,11):
     print(f"{i}*{n}={n*i}")
-  '''
-#factorial
-n=5
-sum=1
-for i in range(1,n+1):
-    sum=sum*i
-print(sum)
+ 
+a=10
+b=5
+a-=b
+b+=a
+print("a",a)
+print("b",b) '''
 
-
-
+a=10
+print(a)
